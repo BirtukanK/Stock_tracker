@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.stock-search input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.stock-search button {
+  padding: 10px;
+}
+
+.error {
+  color: red;
+}
