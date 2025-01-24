@@ -16,7 +16,10 @@ app.get("/", (req, res) => {
 // Stock API Routes
 const stockRoutes = require("./routes/stockRoutes");
 app.use("/api/stocks", stockRoutes);
-const favoritesRoute = require("./routes/favorites");
+
+const authRoutes = require("./routes/authRoutes");
+app.use("/api/auth", authRoutes);
+// const favoritesRoute = require("./routes/favorites");
 // app.use("/api/favorites", favoritesRoute);
 
 //start server
